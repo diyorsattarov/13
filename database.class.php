@@ -6,7 +6,7 @@
     * testing edit 
 */
 
-class Database 
+class Database { 
     private $host = 'localhost';
     private $user = 'diyor';
     private $pass = 'password1';
@@ -69,4 +69,4 @@ class Database
     public function lastInsertId() {
         return $this->dbh->lastInsertId();
     }
-
+}
