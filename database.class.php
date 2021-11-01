@@ -3,9 +3,10 @@
     * PDO Database Class
     * @ Brad Traversy
     * https://gist.github.com/bradtraversy/a77931605ba9b7cf3326644e75530464
+    * testing edit 
 */
 
-class Database {
+class Database 
     private $host = 'localhost';
     private $user = 'diyor';
     private $pass = 'password1';
@@ -68,4 +69,4 @@ class Database {
     public function lastInsertId() {
         return $this->dbh->lastInsertId();
     }
-}
+
