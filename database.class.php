@@ -7,10 +7,10 @@
 */
 
 class Database { 
-    private $host = 'localhost';
-    private $user = 'diyor';
-    private $pass = 'password1';
-    private $dbname = 'MY_APP_DB';
+    private $host = '';
+    private $user = '';
+    private $pass = '';
+    private $dbname = '';
 
     private $dbh;
     private $error;
